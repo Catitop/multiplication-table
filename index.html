@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Multiplication Table</title>
+</head>
+<body>
+    
+    <section class="all_items_section">
+        <h1>Tabuada</h1>
+        <div class="input_and_button_container">
+            <input type="text" class="input_number" onclick="inputValueDisappearance()" onfocusout="inputValueReappearance()">
+            <button onclick="tableResult()">Gerar</button>
+        </div>
+        <div class="results_container">
+            <div class="results_texts">
+                <span class="times_one"></span>
+                <span class="times_two"></span>
+                <span class="times_three"></span>
+                <span class="times_four"></span>
+                <span class="times_five"></span>
+                <span class="times_six"></span>
+                <span class="times_seven"></span>
+                <span class="times_eight"></span>
+                <span class="times_nine"></span>
+                <span class="times_ten"></span>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

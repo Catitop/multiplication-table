@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0A2528;
+    font-family: 'Inter', sans-serif;
+}
+
+input {
+    width: 27.5rem;
+    height: 2.4375rem;
+
+    border-radius: 0.25rem;
+    border: 1px solid #D6B7A2;
+    background-color: transparent;
+    
+    padding-left: 0.69rem;
+
+    color: #BDA492;
+    font-size: 0.85rem;
+    font-weight: 400rem;
+}
+
+button {
+    cursor: pointer;
+
+    width: 5.6875rem;
+    height: 2.4375rem;
+
+    border-radius: 0.25rem;
+    border: 1px solid #D6B7A2;
+    background-color: #D6B7A2;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 1.06819rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.all_items_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 34.1275rem;
+
+    margin: auto;
+    margin-top: 2.94rem;
+}
+
+.all_items_section h1 {
+    font-size: 3.42rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.input_and_button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.94rem;
+
+    margin: auto;
+    margin-top: 2.12rem;
+
+    width: 100%;
+}
+
+.results_container {
+    width: 17.39731rem;
+    height: 33.875rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.30656rem;
+    border: 1.226px solid #D6B7A2;
+
+    margin-top: 2.56rem;
+}
+
+.results_texts {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.63rem;
+
+    width: 11.9375rem;
+    height: 29.11288rem;
+}
+
+.results_texts span {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+@media(max-width:620px) {
+    .input_and_button_container {
+        flex-direction: column;
+    }
+    .results_container {
+        justify-content: center;
+        align-items: center;
+        height: 25.875rem;
+    }
+    .results_texts {
+        align-items: center;
+        justify-content: center;
+    }
+    .results_texts span {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #FFF;
+    }
+    .input_and_button_container {
+        margin: auto;
+        margin-top: 2.12rem;
+    }
+}
+
+@media(max-width:770px) {
+    .all_items_section {
+        margin: auto;
+    }
+}
+
+@media(max-width:540px) {
+    .all_items_section {
+        width: 100%;
+    }
+    input {
+        width: 70%;
+        margin: auto;
+    }
+    .results_container {
+        width: 17rem;
+        height: 40rem;
+
+        margin: auto;
+        margin-top: 2.56rem;
+    }
+    .results_texts {
+        width: 70%;
+        height: 100%;
+    }
+
+    .results_texts span {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-height:900px) {
+    .results_container {
+        height: 25rem;
+    }
+}
