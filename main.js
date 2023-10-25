@@ -9,19 +9,6 @@ const timesEight = document.querySelector(".times_eight")
 const timesNine = document.querySelector(".times_nine")
 const timesTen = document.querySelector(".times_ten")
 const inputNumber = document.querySelector(".input_number")
-inputNumber.setAttribute('value', 'Digite um número');
-
-function inputValueDisappearance() {
-    inputNumber.removeAttribute('value')
-}
-
-function inputValueReappearance() {
-    const { value } = inputNumber
-
-    if(value == '') {
-        inputNumber.setAttribute('value', 'Digite um número');
-    }
-}
 
 function tableResult() {
     var inputValue = inputNumber.value

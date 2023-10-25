@@ -45,8 +45,6 @@ button {
     align-items: center;
     justify-content: center;
 
-    width: 34.1275rem;
-
     margin: auto;
     margin-top: 2.94rem;
 }
@@ -71,8 +69,6 @@ button {
 }
 
 .results_container {
-    width: 17.39731rem;
-    height: 33.875rem;
 
     display: flex;
     flex-direction: column;
@@ -91,8 +87,7 @@ button {
 
     gap: 0.63rem;
 
-    width: 11.9375rem;
-    height: 29.11288rem;
+    padding: 2rem 2rem;
 }
 
 .results_texts span {
